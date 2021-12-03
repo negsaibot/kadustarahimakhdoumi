@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ p{
+    text-decoration: burlywood;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h{
+    text-align: center;
+    font-size: 2em;
+}

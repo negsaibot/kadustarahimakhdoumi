@@ -1,0 +1,173 @@
+body{
+    margin:0px;
+    padding: 0px;
+
+}
+
+.parallax{
+    background-image: url(./gallery/health.jpg);
+    height: max-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 400px;
+
+}
+
+.sname{
+   
+    text-align: center;
+    color:rgb(8, 172, 8);
+    padding: 50px;
+    margin:50px;
+    font: bolder;
+    font-size: 150px;
+    font-family: 'Reem Kufi', sans-serif;
+
+   
+}
+
+.navbar{
+    background-color: rgb(83, 175, 41);
+    text-align: center;
+    
+
+
+}
+.navlist{
+    display: inline;
+}
+
+.navlist li{
+    
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+ 
+}
+
+.navlist li:hover{
+    background-color: rgb(0, 255, 13);}
+
+.nav{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    color: burlywood;
+
+
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+#search{
+    
+    border-radius: 50px;
+    background-color: rgb(83, 175, 41);
+    display: inline-block;
+
+}
+
+.search{
+    background-color: rgb(83, 175, 41);
+    border: none;
+    border-color: burlywood;
+    margin: 7px;
+    color: burlywood;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 15px;
+
+}
+
+button{
+    background: transparent;
+    color: burlywood;
+    border: none;
+}
+
+.container{
+    margin: 50px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.categ , .product{
+    width: max-content;
+    margin: 20px;
+    display: inline-block;
+  
+
+}
+
+.catimg{
+    height:220px;
+    width: 220px;
+    border-radius: 50px;
+    padding: 10px;
+    
+  
+}
+
+.titleimg{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    color: rgb(83, 175, 41);
+}
+
+a{
+    text-decoration: none;
+}
+
+.productimage{
+    padding: 4px;
+    height: 200px;
+    width: 220px;
+}
+
+.pimage{
+    display: inline-block;
+}
+
+.product{
+    margin-right: 40px;
+    margin-left: 30px;
+}
+.des{
+    margin: 5px;
+    text-align: center;
+  
+  
+}
+p{
+    font-weight: bold;
+    font-family: 'Reem Kufi', sans-serif;
+    color: rgb(83, 175, 41);
+}
+
+.sellbtn{
+    border: 1px solid burlywood;
+    background-color:rgb(83, 175, 41) ;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-right: 2px;
+
+}
+.sellbtn:hover{
+
+    cursor: pointer;
+    color: burlywood;
+}
+
+productse{
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.ft{
+    margin-top: 150px;
+    margin-right: 50px;
+}
